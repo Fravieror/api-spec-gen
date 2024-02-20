@@ -1,0 +1,210 @@
+{
+    "batch": {
+        "attachments": [],
+        "batchType": {
+            "enumType": "com.csi.model.BatchType",
+            "name": "API"
+        },
+        "class": "com.csi.model.Batch",
+        "company": {
+            "class": "com.csi.model.Company",
+            "id": 752653
+        },
+        "created": "2024-02-16T22:15:46Z",
+        "customerId": "10012",
+        "errorMessage": null,
+        "failedCount": 0,
+        "failedSubmitNotificationSent": false,
+        "holdBatchUntilClearedFunding": false,
+        "id": 551786,
+        "internalTransactions": [
+            {
+                "class": "com.csi.model.Transaction",
+                "id": 10181897
+            },
+            {
+                "class": "com.csi.model.Transaction",
+                "id": 10181896
+            },
+            {
+                "class": "com.csi.model.Transaction",
+                "id": 10181893
+            },
+            {
+                "class": "com.csi.model.Transaction",
+                "id": 10181894
+            },
+            {
+                "class": "com.csi.model.Transaction",
+                "id": 10181895
+            }
+        ],
+        "large": false,
+        "lastCurrencyConversionRateUpdate": null,
+        "lastViewed": null,
+        "originalBatchId": null,
+        "originalFilename": null,
+        "parentCompany": {
+            "class": "com.csi.model.Company",
+            "id": 752653
+        },
+        "paymentTypeDetails": null,
+        "paymentTypes": "VMC",
+        "proceedWithDuplicates": false,
+        "savedWithErrors": false,
+        "selectCompany": true,
+        "sendOnDate": "2024-02-16T22:15:00Z",
+        "skipFunding": null,
+        "source": "",
+        "status": {
+            "enumType": "com.csi.model.BatchStatus",
+            "name": "PENDING"
+        },
+        "submittedDate": "2024-02-16T22:31:34Z",
+        "submitter": {
+            "class": "com.csi.model.User",
+            "id": 43362
+        },
+        "totalAmount": 241.61,
+        "transactionCount": 5
+    },
+    "invoices": [
+        {
+            "amount": 44.21,
+            "paymentId": 2463678,
+            "transactionId": 10181893
+        },
+        {
+            "amount": 46.62,
+            "paymentId": 2463678,
+            "transactionId": 10181894
+        },
+        {
+            "amount": 87.49,
+            "paymentId": 2463678,
+            "transactionId": 10181895
+        },
+        {
+            "amount": 32.19,
+            "paymentId": 2463678,
+            "transactionId": 10181896
+        },
+        {
+            "amount": 31.1,
+            "paymentId": 2463678,
+            "transactionId": 10181897
+        }
+    ],
+    "payments": [
+        {
+            "accountCode": "GVC439",
+            "adapterConfiguration": null,
+            "amount": 241.61,
+            "attachments": [],
+            "attributes": [
+                {
+                    "class": "com.csi.model.CustomAttribute",
+                    "id": 2241664
+                }
+            ],
+            "authorizedDate": null,
+            "bankId": null,
+            "batchId": 551786,
+            "batchType": "VMC",
+            "checkNumber": "9000062",
+            "class": "com.csi.model.payment.Payment",
+            "created": "2024-02-16T22:31:34Z",
+            "createdBy": {
+                "class": "com.csi.model.User",
+                "id": 43362
+            },
+            "currencyCode": {
+                "enumType": "com.csi.model.payment.CurrencyCode",
+                "name": "USD"
+            },
+            "currencyConversionRate": 1,
+            "customerId": null,
+            "deliveryCycle": null,
+            "errorMessage": null,
+            "expectedSettlementDate": null,
+            "expedite": false,
+            "fee": 0,
+            "fileName": null,
+            "fundsReturned": null,
+            "fxRate": null,
+            "glAccount": null,
+            "id": 2463678,
+            "invoices": [
+                {
+                    "class": "com.csi.model.payment.Invoice",
+                    "id": 6154205
+                },
+                {
+                    "class": "com.csi.model.payment.Invoice",
+                    "id": 6154207
+                },
+                {
+                    "class": "com.csi.model.payment.Invoice",
+                    "id": 6154206
+                },
+                {
+                    "class": "com.csi.model.payment.Invoice",
+                    "id": 6154203
+                },
+                {
+                    "class": "com.csi.model.payment.Invoice",
+                    "id": 6154204
+                }
+            ],
+            "lastActivityDate": null,
+            "method": {
+                "class": "com.csi.model.payment.PaymentMethod",
+                "id": "GVC"
+            },
+            "opened": true,
+            "outstanding": true,
+            "payee": null,
+            "payeeAddress1": null,
+            "payeeAddress2": null,
+            "payeeAddress3": null,
+            "payeeAddress4": null,
+            "payeeCity": null,
+            "payeeCountry": "US",
+            "payeeName": "Global Modern Services, Inc. (USA)",
+            "payeeState": null,
+            "payeeZip": null,
+            "payer": {
+                "class": "com.csi.model.Company",
+                "id": 752653
+            },
+            "payerAmount": 241.61,
+            "paymentTerm": null,
+            "postedAmount": null,
+            "postedDate": null,
+            "processed": null,
+            "recipientEmailAddress": "scooter.inc@compuserve.net",
+            "recipientFax": null,
+            "reconciled": null,
+            "remittanceEmails": [],
+            "remittanceFaxes": [],
+            "remittanceItems": [],
+            "remittanceType": null,
+            "status": {
+                "enumType": "com.csi.model.payment.PaymentStatus",
+                "name": "CREATED"
+            },
+            "statusNote": "",
+            "stpMethod": null,
+            "supplierCode": "S-0015",
+            "suppressPublishUntil": null,
+            "suppressReconciliationUntil": null,
+            "token": "64060830909e7e8b",
+            "traceId": null,
+            "trackingNumber": null,
+            "updated": "2024-02-16T22:31:34Z",
+            "variance": false,
+            "warningMessage": null
+        }
+    ],
+    "service": "BatchSplitterService"
+}
